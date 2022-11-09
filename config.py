@@ -4,7 +4,7 @@ basedir = os.path.abspath(os.path.dirname(__file__))
 
 
 class Config:
-    SECRET_KEY = os.ENVIRON.GET('SECRET_KEY', 'secret')
+    SECRET_KEY = os.environ.get('SECRET_KEY', 'secret')
     STREAM_API_KEY = ''  # Insert your Stream API key here
     STREAM_SECRET = ''  # Insert your Stream Secret here
     MAIL_SERVER = os.environ.get('MAIL_SERVER', 'smtp.googlemail.com')
