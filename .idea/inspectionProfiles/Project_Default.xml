@@ -1,0 +1,24 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="E302" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="status" />
+          <option value="active" />
+          <option value="input_data" />
+          <option value="server.apps.endpoints.apps.endpoints" />
+          <option value="apps.ml" />
+          <option value="AirBnB_clone_v3.api.v1.app.*" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
